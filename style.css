@@ -95,7 +95,11 @@ header .bug {
 
 main {
     margin-top: 242px;
+    margin-bottom: 128px;
 }
+
+
+
 
 .product .wrapper-grid {
     display: grid;
@@ -153,4 +157,27 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    width: 932px;
+    margin: auto;
+    margin-bottom: 134px;
+}
+
+footer div h1 {
+    font: 600 18px 'Poppins';
+    color: #151515;
+    margin-bottom: 16px;
+}
+
+footer div p {
+    font: 400 14px 'Poppins';
+    color: #6A983C;
+}
+
+footer div p:not(:last-child) {
+    margin-bottom: 16px;
 }
