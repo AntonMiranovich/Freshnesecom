@@ -98,7 +98,58 @@ main {
     margin-bottom: 128px;
 }
 
+.banner {
+    display: flex;
+    justify-content: center;
+}
 
+.banner .blocks {
+    background-image: url(./assets/fon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 419px;
+    height: 280px;
+    margin-bottom: 128px;
+}
+
+.banner .blocks:not(:last-child) {
+    margin-right: 30px;
+}
+
+.banner .blocks .block p {
+    font: 600 12px 'Poppins';
+    color: #6A983C;
+    margin: 50px 0 8px 33px;
+}
+
+.banner .blocks .block h1 {
+    font: 600 22px 'Poppins';
+    color: #151515;
+    margin-bottom: 92px;
+    margin-left: 33px;
+}
+
+.banner .blocks .button {
+    display: flex;
+    width: 163px;
+    height: 47px;
+    border: 2px solid #92C064;
+    border-radius: 12px;
+    margin-left: 33px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .blocks .button .vector {
+    font: 700 15px 'Poppins';
+    color: #92C064;
+    margin-left: 11px;
+}
+
+.banner .blocks .button p {
+    font: 700 15px 'Poppins';
+    color: #151515;
+}
 
 
 .product .wrapper-grid {
